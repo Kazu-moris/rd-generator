@@ -1,43 +1,36 @@
-# rd-generator
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-要求定義文書（RD：Requirements Definition）から要件定義文書（RD：Requirements Document）を生成するためのツールです。生成AIによる支援を受けられます。
+## Getting Started
 
-## 概要
+First, run the development server:
 
-本ツールは、要求定義文書の内容を解析し、以下の機能を提供します：
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- 要求定義文書から要件定義文書のドラフトを自動生成
-- 要件の抽出と構造化
-- トレーサビリティの確保
-- 要件の優先順位付け支援
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 主な機能
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. 要求定義文書の取り込み
-   - Word/Excel/PDFなどの一般的なフォーマットに対応
-   - テキストベースの入力にも対応
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-2. 要件の自動抽出
-   - 自然言語処理による要件の特定
-   - 要件間の関連性の分析
+## Learn More
 
-3. 要件定義文書の生成
-   - 標準テンプレートに基づいた文書生成
-   - カスタマイズ可能な出力フォーマット
-   - デフォルトの出力フォーマットはMarkdown
+To learn more about Next.js, take a look at the following resources:
 
-## 技術スタック
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-本ツールの技術スタックは現在未決です。今後の開発において決定される予定です。
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 使用方法
+## Deploy on Vercel
 
-[使用方法の詳細を記載予定]
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## インストール
-
-[インストール手順を記載予定]
-
-## ライセンス
-
-[ライセンス情報を記載予定]
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
